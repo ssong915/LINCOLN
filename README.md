@@ -8,11 +8,11 @@ This repository provides an implementation of LINCOLN as described in the paper:
 <img src="./overview_fig.png" width="70%" height="70%">
 </p>
 
-- Observation: We observe that high-order relations tend to (O1) have a structural and temporal influence on other relations in a short term and (O2) periodically re-appear in a long term.
-
-- Method: We propose a novel dynamic hypergraph learning method, LINCOLN, that effectively captures high-order dynamics of real-world networks by employing (1) bi-interactional hyperedge encoding and (2) periodic time injection.
-
-- Experiments: Via extensive experiments on seven real-world datasets, we demonstrate that (1) LINCOLN outperforms nine state-of-the-art methods in the dynamic hyperedge prediction task and (2) each of the proposed strategies is effective in improving the accuracy of LINCOLN. 
+- Observations: We observe that high-order relations tend to **(O1)** *have a structural and temporal influence on other relations in a short term* and **(O2)** *periodically re-appear in a long term*.
+    
+- Method: We propose a novel dynamic hypergraph learning method, LINCOLN, that effectively captures long-term and short-term patterns of high-order relations in real-world networks.
+    
+- Evaluation: Via extensive experiments on seven real-world datasets, we demonstrate that LINCOLN outperforms nine state-of-the-art methods in the dynamic hyperedge prediction task.
 
 
 ## Datasets
