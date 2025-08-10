@@ -1,6 +1,12 @@
 # LINCOLN: Learning High-Order Dynamics of Real-World Networks 
 
 This repository provides an implementation of LINCOLN as described in the paper: <u>LINCOLN: Learning High-Order Dynamics of Real-World Networks</u>.
+## Authors
+
+- Yunyong Ko (yyko@cau.ac.kr)
+- Da Eun Lee (ddanable@hanyang.ac.kr)
+- Song Kyung Yu (ssong915@hanyang.ac.kr)
+- Sang-Wook Kim (wook@hanyang.ac.kr)
 
 ## Overview
 
@@ -8,11 +14,14 @@ This repository provides an implementation of LINCOLN as described in the paper:
 <img src="./overview_fig.png" width="70%" height="70%">
 </p>
 
-- Observations: We observe that high-order relations tend to **(O1)** *have a structural and temporal influence on other relations in a short term* and **(O2)** *periodically re-appear in a long term*.
+- **Observations**
+    - We observe that high-order relations tend to (O1) have a structural and temporal influence on other relations in a short term and (O2) periodically re-appear in a long term.
     
-- Method: We propose a novel dynamic hypergraph learning method, LINCOLN, that effectively captures long-term and short-term patterns of high-order relations in real-world networks.
+- **Method**
+    - We propose a novel dynamic hypergraph learning method, Lincoln, that effectively captures long-term and short term patterns of high-order relations in real-world networks.
     
-- Evaluation: Via extensive experiments on seven real-world datasets, we demonstrate that LINCOLN outperforms nine state-of-the-art methods in the dynamic hyperedge prediction task.
+- **Evaluation**
+    - Via extensive experiments on seven real-world datasets, we demonstrate that Lincoln outperforms nine state-of-the-art methods in the dynamic hyperedge prediction task.
 
 
 ## Datasets
